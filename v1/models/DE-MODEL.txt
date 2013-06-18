@@ -1,0 +1,77 @@
+
+model DialogueGameDE  
+
+--Initial commitment, CR0: The initial commitment of each participant is null.
+context DialogueGame::start():String
+	post: proponent.store.content->isEmpty() and 
+	      opponent.store.content->isEmpty()
+
+--Termination Rules: The game will be ended when a participant accepts the other participant’s view.
+context DialogueGame::end():String
+    pre:proponent.store.content->includes(thesis.getNegation()) or
+        opponent.store.content->includes(thesis)
+        
+--Playing
+context DialogueGame::play():String  
+  pre: proponent.store.content->excludes(thesis.getNegation())and  
+       opponent.store.content->excludes(thesis)
+
+--RFORM: Participants may make one of the permitted types of move in turn.
+context Turn
+    inv: move->size()=1
+context DialogueGame
+    inv: self.proponent.turn->forAll(getNumber()/2=1) and self.opponent.turn->forAll(getNumber()/2=0)
+   
+--Player makes a legal move
+context Player::makeMove():Move
+    --Permitted move types:
+    post: Set{'Assertion', 'Question', 'Challenge', 'Resolve', 'Withdrawal'}->includes(result.getType())
+   
+    --start of the game
+	post: game.history.getSize()=0 implies (result.getType()='Question' and result.content=game.getThesis()) 
+   
+    --RQUEST: The question P may be answered only by P, “Not P” or “no commitment P”.
+    def: let previousMove=game.history.getPreviousMove()    
+ 	post:  previousMove.getType()='Question' implies (result.getType='Assertion' and result.content=previousMove.content) or
+ 	                                                 (result.getType()='Assertion' and result.content=previousMove.content.getNegation())or
+ 	                                                 (result.getType()='Withdrawal' and result.content=previousMove.content)
+
+	--RCHALL: “Why P?” must be responded to by a withdrawal of P, a statement acceptable to the challenger, or a resolution demand of any of
+	-- the commitments of the challenger which immediately imply P. 
+ 	post:   previousMove.getType()='Challenge' implies (result.getType()='Withdrawal' and result.content=previousMove.content) or
+ 	                                                   (result.getType()='Resolve' and result.content=previousMove.content)or
+ 	                                                   (result.getType()='Assertion' and not (store.selfSupport(result.content)))
+ 	  
+ 	-- RRESOLUTION: a resolution demand must be followed by withdrawal of one of the offending conjuncts, or affirmation of the disputed consequent.
+	post:	previousMove.getType()='Resolve' implies (result.getType()='Withdrawal' and result.content=previousMove.content) or
+	                                                 (result.getType()='Withdrawal' and result.content=previousMove.content.getNegation()) or
+		                                             (result.getType()='Assertion' and result.content=previousMove.content) or
+	                                                 (result.getType()='Assertion' and result.content=previousMove.content.getNegation())
+
+	--	RREPSTAT: Mutual commitment may not be asserted unless to answer a question or a challenge.	
+	pre:   (previousMove.getType()='Withdrawal' or previousMove.getType()='Assertion') and result.getType()='Assertion' implies 
+	         store.content->excludes(result.content) or listenerStore.content->excludes(result.content)
+     
+	-- RLEGALCHALL: “Why P?” may not be used unless P is in the dialogue partner's store.
+	pre: result.getType()='Challenge' implies listenerStore.content->includes(result.content)
+	    
+	    
+	--RRESOLVE: Resolution demands may be made only if the dialogue partner has in his commitment store an immediately inconsistent 
+	--conjunction of statements, or withdraws or challenges an immediate consequent of his commitments
+	pre: result.getType()='Resolve' and (previousMove.getType()='Withdrawal' or previousMove.getType()='Challenge') implies 
+	     listenerStore.support(result.content)
+	pre: result.getType()='Resolve' and not (previousMove.getType()='Withdrawal' or previousMove.getType()='Challenge') implies 
+	     (listenerStore.support(result.content)or listenerStore.content->includes(result.content)) and 
+	     (listenerStore.support(result.content.getNegation())or listenerStore.content->includes(result.content.getNegation()))
+	   
+	--Withdrawals, CRW: After the withdrawal of P, the statement P is not included in the move maker’s store.
+	--Challenges, CRY: A challenge of P results in P being removed from the store of the move maker if it is there. 	
+	post:	result.getType()='Withdrawal' or result.getType()='Challenge' implies result.turn.player.store.content->excludes(result.content)
+	--Statements, CRS: After a statement P, unless the preceding event was a challenge, P is included in the move maker’s store
+	post:	result.getType()='Assertion' and not(previousMove.getType()='Challenge') implies result.turn.player.store.content->includes(result.content) 
+	--After a statement P, if the preceding event was “Why Q?”, “P” and “If P then Q” are included in the move maker’s store
+    post:	result.getType()='Assertion' and previousMove.getType()='Challenge' implies 
+            result.turn.player.store.content->includes(result.content) and 
+            result.turn.player.store.inference->exists(getData()=result.content and getConclusion()=previousMove.content) 
+endmodel
+

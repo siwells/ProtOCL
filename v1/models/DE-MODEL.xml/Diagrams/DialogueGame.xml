@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XMI xmlns:GXML="//lci.cs.ubbcluj.ro/gxml" xmlns:UML="//org.omg/UML/1.3" xmi.version="1.1">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>ocle 2.0</XMI.exporter>
+   <XMI.exporterVersion>1.0</XMI.exporterVersion>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name="GXAPI" xmi.version="0.1"/>
+ </XMI.header>
+ <XMI.content>
+  <GXML:ClassDiagram background="java.awt.Color[r=255,g=255,b=255]" gridVisible="false" isLocked="false" name="DialogueGame" xmi.id="S.1" xmlns:GXML="http://lci/xml">
+   <GXML:ClassDiagram.owner>
+    <UML:Model href="../DialogueGameDE.xml|S.1" xml:link="simple" xmlns:UML="http://lci/xml"/>
+   </GXML:ClassDiagram.owner>
+   <GXML:ClassDiagram.flat>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.2">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.3"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.6" xmi.id="S.4">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.5"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:SpecialEdge allowsChildren="true" children="S.15" isRouted="false" labels="S.8 S.9 S.10 S.11" source="S.13" target="S.12" xmi.id="S.7">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="0 18 false 1.0 18 4" xmi.id="S.14">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.227" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.227" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialPort allowsChildren="false" parent="S.18" xmi.id="S.16">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.17"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:ClassCell allowsChildren="true" children="S.12" hasAutoR="false" isFiltered="false" isInterface="false" showPackage="false" xmi.id="S.19">
+     <GXML:ClassCell.property>
+      <GXML:ClassGProperty bodyfontSize="11" fillColor="java.awt.Color[r=255,g=255,b=255]" outlineColor="java.awt.Color[r=0,g=0,b=0]" outlineWidth="1" selectionColor="java.awt.Color[r=255,g=0,b=0]" titlefontSize="12" xmi.id="S.20"/>
+     </GXML:ClassCell.property>
+     <GXML:ClassCell.filter>
+      <GXML:ClassFilter xmi.id="S.21">
+       <GXML:ClassFilter.map>
+        <GXML:HashtableStrings keys="a_pro m_pro m_pub a_pac a_pri stereotype a_pub msignature m_pri m_pac" values="true true true true true true true true true true" xmi.id="S.22"/>
+       </GXML:ClassFilter.map>
+      </GXML:ClassFilter>
+     </GXML:ClassCell.filter>
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.23">
+       <GXML:HashtableStrings.value>
+        <UML:Class href="../DialogueGameDE.xml|S.102" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Class href="../DialogueGameDE.xml|S.102" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:ClassCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="0..2" xmi.id="S.24">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="0..2" xmi.id="S.25"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.28" xmi.id="S.26">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.27"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+store" xmi.id="S.29">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+store" xmi.id="S.30"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1..*" xmi.id="S.31">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1..*" xmi.id="S.32"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+player" xmi.id="S.9">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+player" xmi.id="S.33"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.36" xmi.id="S.34">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.35"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+turn" xmi.id="S.37">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+turn" xmi.id="S.38"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="0..2" xmi.id="S.39">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="0..2" xmi.id="S.40"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.43" xmi.id="S.41">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.42"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.44">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.45"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+game" xmi.id="S.11">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+game" xmi.id="S.46"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+move" xmi.id="S.47">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+move" xmi.id="S.48"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.51" xmi.id="S.49">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.50"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+game" xmi.id="S.52">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+game" xmi.id="S.53"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.56" xmi.id="S.54">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.55"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.57">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.58"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+inference" xmi.id="S.59">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+inference" xmi.id="S.60"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="0..*" xmi.id="S.61">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="0..*" xmi.id="S.62"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.65" xmi.id="S.63">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.64"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+player" xmi.id="S.66">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+player" xmi.id="S.67"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.70" xmi.id="S.68">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.69"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+player" xmi.id="S.71">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+player" xmi.id="S.72"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.75" xmi.id="S.73">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.74"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+store" xmi.id="S.76">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+store" xmi.id="S.77"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.78">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.79"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.82" xmi.id="S.80">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.81"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.83">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.84"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialEdge allowsChildren="true" children="S.80" isRouted="false" labels="S.31 S.37 S.44 S.66" source="S.63" target="S.13" xmi.id="S.82">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="0 18 false 1.0 18 0" xmi.id="S.85">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.213" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.213" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:ClassCell allowsChildren="true" children="S.91" hasAutoR="false" isFiltered="false" isInterface="false" showPackage="false" xmi.id="S.86">
+     <GXML:ClassCell.property>
+      <GXML:ClassGProperty bodyfontSize="11" fillColor="java.awt.Color[r=255,g=255,b=255]" outlineColor="java.awt.Color[r=0,g=0,b=0]" outlineWidth="1" selectionColor="java.awt.Color[r=255,g=0,b=0]" titlefontSize="12" xmi.id="S.87"/>
+     </GXML:ClassCell.property>
+     <GXML:ClassCell.filter>
+      <GXML:ClassFilter xmi.id="S.88">
+       <GXML:ClassFilter.map>
+        <GXML:HashtableStrings keys="a_pro m_pro m_pub a_pac a_pri stereotype a_pub msignature m_pri m_pac" values="true true true true true true true true true true" xmi.id="S.89"/>
+       </GXML:ClassFilter.map>
+      </GXML:ClassFilter>
+     </GXML:ClassCell.filter>
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.90">
+       <GXML:HashtableStrings.value>
+        <UML:Class href="../DialogueGameDE.xml|S.109" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Class href="../DialogueGameDE.xml|S.109" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:ClassCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+listenerStore" xmi.id="S.92">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+listenerStore" xmi.id="S.93"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+turn" xmi.id="S.94">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+turn" xmi.id="S.95"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:ClassCell allowsChildren="true" children="S.63" hasAutoR="false" isFiltered="false" isInterface="false" showPackage="false" xmi.id="S.65">
+     <GXML:ClassCell.property>
+      <GXML:ClassGProperty bodyfontSize="11" fillColor="java.awt.Color[r=255,g=255,b=255]" outlineColor="java.awt.Color[r=0,g=0,b=0]" outlineWidth="1" selectionColor="java.awt.Color[r=255,g=0,b=0]" titlefontSize="12" xmi.id="S.96"/>
+     </GXML:ClassCell.property>
+     <GXML:ClassCell.filter>
+      <GXML:ClassFilter xmi.id="S.97">
+       <GXML:ClassFilter.map>
+        <GXML:HashtableStrings keys="a_pro m_pro m_pub a_pac a_pri stereotype a_pub msignature m_pri m_pac" values="true true true true true true true true true true" xmi.id="S.98"/>
+       </GXML:ClassFilter.map>
+      </GXML:ClassFilter>
+     </GXML:ClassCell.filter>
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.99">
+       <GXML:HashtableStrings.value>
+        <UML:Class href="../DialogueGameDE.xml|S.133" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Class href="../DialogueGameDE.xml|S.133" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:ClassCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.100">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.101"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.7" xmi.id="S.15">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.102"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1..*" xmi.id="S.103">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1..*" xmi.id="S.104"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:ClassCell allowsChildren="true" children="S.13" hasAutoR="false" isFiltered="false" isInterface="false" showPackage="false" xmi.id="S.105">
+     <GXML:ClassCell.property>
+      <GXML:ClassGProperty bodyfontSize="11" fillColor="java.awt.Color[r=255,g=255,b=255]" outlineColor="java.awt.Color[r=0,g=0,b=0]" outlineWidth="1" selectionColor="java.awt.Color[r=255,g=0,b=0]" titlefontSize="12" xmi.id="S.106"/>
+     </GXML:ClassCell.property>
+     <GXML:ClassCell.filter>
+      <GXML:ClassFilter xmi.id="S.107">
+       <GXML:ClassFilter.map>
+        <GXML:HashtableStrings keys="a_pro m_pro m_pub a_pac a_pri stereotype a_pub msignature m_pri m_pac" values="true true true true true true true true true true" xmi.id="S.108"/>
+       </GXML:ClassFilter.map>
+      </GXML:ClassFilter>
+     </GXML:ClassCell.filter>
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.109">
+       <GXML:HashtableStrings.value>
+        <UML:Class href="../DialogueGameDE.xml|S.189" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Class href="../DialogueGameDE.xml|S.189" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:ClassCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.110">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.111"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.114" xmi.id="S.112">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.113"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+content" xmi.id="S.115">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+content" xmi.id="S.116"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+content" xmi.id="S.117">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+content" xmi.id="S.118"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.121" xmi.id="S.119">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.120"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:ClassCell allowsChildren="true" children="S.34" hasAutoR="false" isFiltered="false" isInterface="false" showPackage="false" xmi.id="S.36">
+     <GXML:ClassCell.property>
+      <GXML:ClassGProperty bodyfontSize="11" fillColor="java.awt.Color[r=255,g=255,b=255]" outlineColor="java.awt.Color[r=0,g=0,b=0]" outlineWidth="1" selectionColor="java.awt.Color[r=255,g=0,b=0]" titlefontSize="12" xmi.id="S.122"/>
+     </GXML:ClassCell.property>
+     <GXML:ClassCell.filter>
+      <GXML:ClassFilter xmi.id="S.123">
+       <GXML:ClassFilter.map>
+        <GXML:HashtableStrings keys="a_pro m_pro m_pub a_pac a_pri stereotype a_pub msignature m_pri m_pac" values="true true true true true true true true true true" xmi.id="S.124"/>
+       </GXML:ClassFilter.map>
+      </GXML:ClassFilter>
+     </GXML:ClassCell.filter>
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.125">
+       <GXML:HashtableStrings.value>
+        <UML:Class href="../DialogueGameDE.xml|S.192" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Class href="../DialogueGameDE.xml|S.192" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:ClassCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.19" xmi.id="S.12">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.126"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:ClassCell allowsChildren="true" children="S.49" hasAutoR="false" isFiltered="false" isInterface="false" showPackage="false" xmi.id="S.51">
+     <GXML:ClassCell.property>
+      <GXML:ClassGProperty bodyfontSize="11" fillColor="java.awt.Color[r=255,g=255,b=255]" outlineColor="java.awt.Color[r=0,g=0,b=0]" outlineWidth="1" selectionColor="java.awt.Color[r=255,g=0,b=0]" titlefontSize="12" xmi.id="S.127"/>
+     </GXML:ClassCell.property>
+     <GXML:ClassCell.filter>
+      <GXML:ClassFilter xmi.id="S.128">
+       <GXML:ClassFilter.map>
+        <GXML:HashtableStrings keys="a_pro m_pro m_pub a_pac a_pri stereotype a_pub msignature m_pri m_pac" values="true true true true true true true true true true" xmi.id="S.129"/>
+       </GXML:ClassFilter.map>
+      </GXML:ClassFilter>
+     </GXML:ClassCell.filter>
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.130">
+       <GXML:HashtableStrings.value>
+        <UML:Class href="../DialogueGameDE.xml|S.119" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Class href="../DialogueGameDE.xml|S.119" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:ClassCell>
+    <GXML:SpecialEdge allowsChildren="true" children="S.112" isRouted="false" labels="S.131 S.132 S.133 S.134" source="S.13" target="S.12" xmi.id="S.114">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="4 18 false 1.0 18 0" xmi.id="S.135">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.199" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.199" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialPort allowsChildren="false" parent="S.86" xmi.id="S.91">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.136"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+game" xmi.id="S.137">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+game" xmi.id="S.138"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.139">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.140"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.141">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.142"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+player" xmi.id="S.143">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+player" xmi.id="S.144"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+store" xmi.id="S.145">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+store" xmi.id="S.146"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:ClassCell allowsChildren="true" children="S.152" hasAutoR="false" isFiltered="false" isInterface="false" showPackage="false" xmi.id="S.147">
+     <GXML:ClassCell.property>
+      <GXML:ClassGProperty bodyfontSize="11" fillColor="java.awt.Color[r=255,g=255,b=255]" outlineColor="java.awt.Color[r=0,g=0,b=0]" outlineWidth="1" selectionColor="java.awt.Color[r=255,g=0,b=0]" titlefontSize="12" xmi.id="S.148"/>
+     </GXML:ClassCell.property>
+     <GXML:ClassCell.filter>
+      <GXML:ClassFilter xmi.id="S.149">
+       <GXML:ClassFilter.map>
+        <GXML:HashtableStrings keys="a_pro m_pro m_pub a_pac a_pri stereotype a_pub msignature m_pri m_pac" values="true true true true true true true true true true" xmi.id="S.150"/>
+       </GXML:ClassFilter.map>
+      </GXML:ClassFilter>
+     </GXML:ClassCell.filter>
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.151">
+       <GXML:HashtableStrings.value>
+        <UML:Class href="../DialogueGameDE.xml|S.160" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Class href="../DialogueGameDE.xml|S.160" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:ClassCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+history" xmi.id="S.153">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+history" xmi.id="S.154"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.155">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.156"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.105" xmi.id="S.13">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.157"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.133">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.158"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+move" xmi.id="S.159">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+move" xmi.id="S.160"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+opponent" xmi.id="S.161">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+opponent" xmi.id="S.162"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:ClassCell allowsChildren="true" children="S.41" hasAutoR="false" isFiltered="false" isInterface="false" showPackage="false" xmi.id="S.43">
+     <GXML:ClassCell.property>
+      <GXML:ClassGProperty bodyfontSize="11" fillColor="java.awt.Color[r=255,g=255,b=255]" outlineColor="java.awt.Color[r=0,g=0,b=0]" outlineWidth="1" selectionColor="java.awt.Color[r=255,g=0,b=0]" titlefontSize="12" xmi.id="S.163"/>
+     </GXML:ClassCell.property>
+     <GXML:ClassCell.filter>
+      <GXML:ClassFilter xmi.id="S.164">
+       <GXML:ClassFilter.map>
+        <GXML:HashtableStrings keys="a_pro m_pro m_pub a_pac a_pri stereotype a_pub msignature m_pri m_pac" values="true true true true true true true true true true" xmi.id="S.165"/>
+       </GXML:ClassFilter.map>
+      </GXML:ClassFilter>
+     </GXML:ClassCell.filter>
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.166">
+       <GXML:HashtableStrings.value>
+        <UML:Class href="../DialogueGameDE.xml|S.176" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Class href="../DialogueGameDE.xml|S.176" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:ClassCell>
+    <GXML:ClassCell allowsChildren="true" children="S.172" hasAutoR="false" isFiltered="false" isInterface="false" showPackage="false" xmi.id="S.167">
+     <GXML:ClassCell.property>
+      <GXML:ClassGProperty bodyfontSize="11" fillColor="java.awt.Color[r=255,g=255,b=255]" outlineColor="java.awt.Color[r=0,g=0,b=0]" outlineWidth="1" selectionColor="java.awt.Color[r=0,g=0,b=255]" titlefontSize="12" xmi.id="S.168"/>
+     </GXML:ClassCell.property>
+     <GXML:ClassCell.filter>
+      <GXML:ClassFilter xmi.id="S.169">
+       <GXML:ClassFilter.map>
+        <GXML:HashtableStrings keys="a_pro m_pro m_pub a_pac a_pri stereotype a_pub msignature m_pri m_pac" values="true true true true true true true true true true" xmi.id="S.170"/>
+       </GXML:ClassFilter.map>
+      </GXML:ClassFilter>
+     </GXML:ClassCell.filter>
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.171">
+       <GXML:HashtableStrings.value>
+        <UML:Class href="../DialogueGameDE.xml|S.116" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Class href="../DialogueGameDE.xml|S.116" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:ClassCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="0..*" xmi.id="S.173">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="0..*" xmi.id="S.174"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.175">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.176"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.131">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.177"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.178">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.179"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.10">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.180"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+proponent" xmi.id="S.132">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+proponent" xmi.id="S.181"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.184" xmi.id="S.182">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.183"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+history" xmi.id="S.185">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+history" xmi.id="S.186"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.189" xmi.id="S.187">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.188"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:SpecialPort allowsChildren="false" parent="S.192" xmi.id="S.190">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.191"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+turn" xmi.id="S.193">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+turn" xmi.id="S.194"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.195">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.196"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="0..*" xmi.id="S.197">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="0..*" xmi.id="S.198"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.147" xmi.id="S.152">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.199"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:SpecialPort allowsChildren="false" parent="S.167" xmi.id="S.172">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.200"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="+game" xmi.id="S.134">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="+game" xmi.id="S.201"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialPort allowsChildren="false" parent="S.204" xmi.id="S.202">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings xmi.id="S.203"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:SpecialPort>
+    <GXML:DefaultGraphCell allowsChildren="true" userObjectString="1" xmi.id="S.8">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="value" values="1" xmi.id="S.205"/>
+     </GXML:DefaultGraphCell.attributes>
+    </GXML:DefaultGraphCell>
+    <GXML:SpecialEdge allowsChildren="true" children="S.68" isRouted="false" labels="S.175 S.193 S.103 S.159" source="S.63" target="S.49" xmi.id="S.70">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin beginFill endsize editable linewidth lineEnd beginSize" values="9 true 18 false 1.0 0 18" xmi.id="S.206">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.153" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.153" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialEdge allowsChildren="true" children="S.73" isRouted="false" source="S.91" target="S.152" xmi.id="S.75">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="endsize editable linewidth beginSize lineEnd" values="18 false 1.0 18 2" xmi.id="S.207">
+       <GXML:HashtableStrings.value>
+        <UML:Generalization href="../DialogueGameDE.xml|S.167" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Generalization href="../DialogueGameDE.xml|S.167" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialEdge allowsChildren="true" children="S.16" isRouted="false" labels="S.61 S.59 S.24 S.76" source="S.41" target="S.34" xmi.id="S.18">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="4 18 false 1.0 18 0" xmi.id="S.208">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.234" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.234" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialEdge allowsChildren="true" children="S.190" isRouted="false" labels="S.197 S.117 S.39 S.29" source="S.152" target="S.34" xmi.id="S.192">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="4 18 false 1.0 18 0" xmi.id="S.209">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.248" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.248" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialEdge allowsChildren="true" children="S.54" isRouted="false" source="S.152" target="S.41" xmi.id="S.56">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize" values="2 18 false 1.0 18" xmi.id="S.210">
+       <GXML:HashtableStrings.value>
+        <UML:Generalization href="../DialogueGameDE.xml|S.168" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Generalization href="../DialogueGameDE.xml|S.168" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialEdge allowsChildren="true" children="S.187" isRouted="false" labels="S.155 S.71 S.2 S.92" source="S.13" target="S.34" xmi.id="S.189">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="0 18 false 1.0 18 4" xmi.id="S.211">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.206" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.206" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialEdge allowsChildren="true" children="S.26" isRouted="false" labels="S.57 S.115 S.100 S.47" source="S.152" target="S.49" xmi.id="S.28">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="4 18 false 1.0 18 0" xmi.id="S.212">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.169" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.169" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialEdge allowsChildren="true" children="S.119" isRouted="false" labels="S.139 S.161 S.78 S.52" source="S.13" target="S.12" xmi.id="S.121">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="4 18 false 1.0 18 0" xmi.id="S.213">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.220" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.220" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialEdge allowsChildren="true" children="S.182" isRouted="false" labels="S.110 S.143 S.141 S.145" source="S.13" target="S.34" xmi.id="S.184">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="0 18 false 1.0 18 4" xmi.id="S.214">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.241" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.241" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialEdge allowsChildren="true" children="S.202" isRouted="false" labels="S.173 S.94 S.83 S.185" source="S.63" target="S.172" xmi.id="S.204">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="4 18 false 1.0 18 0" xmi.id="S.215">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.140" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.140" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+    <GXML:SpecialEdge allowsChildren="true" children="S.4" isRouted="false" labels="S.195 S.153 S.178 S.137" source="S.172" target="S.12" xmi.id="S.6">
+     <GXML:DefaultGraphCell.attributes>
+      <GXML:HashtableStrings keys="lineBegin endsize editable linewidth beginSize lineEnd" values="4 18 false 1.0 18 0" xmi.id="S.216">
+       <GXML:HashtableStrings.value>
+        <UML:Association href="../DialogueGameDE.xml|S.126" xml:link="simple" xmlns:UML="http://lci/xml"/>
+       </GXML:HashtableStrings.value>
+      </GXML:HashtableStrings>
+     </GXML:DefaultGraphCell.attributes>
+     <GXML:DefaultMutableTreeNode.userObject>
+      <UML:Association href="../DialogueGameDE.xml|S.126" xml:link="simple" xmlns:UML="http://lci/xml"/>
+     </GXML:DefaultMutableTreeNode.userObject>
+    </GXML:SpecialEdge>
+   </GXML:ClassDiagram.flat>
+   <GXML:ClassDiagram.cells>
+    <GXML:SpecialEdge xmi.idref="S.6"/>
+    <GXML:SpecialEdge xmi.idref="S.204"/>
+    <GXML:SpecialEdge xmi.idref="S.114"/>
+    <GXML:SpecialEdge xmi.idref="S.7"/>
+    <GXML:SpecialEdge xmi.idref="S.121"/>
+    <GXML:SpecialEdge xmi.idref="S.70"/>
+    <GXML:ClassCell xmi.idref="S.19"/>
+    <GXML:ClassCell xmi.idref="S.167"/>
+    <GXML:SpecialEdge xmi.idref="S.18"/>
+    <GXML:SpecialEdge xmi.idref="S.56"/>
+    <GXML:ClassCell xmi.idref="S.65"/>
+    <GXML:ClassCell xmi.idref="S.105"/>
+    <GXML:SpecialEdge xmi.idref="S.82"/>
+    <GXML:SpecialEdge xmi.idref="S.189"/>
+    <GXML:SpecialEdge xmi.idref="S.184"/>
+    <GXML:ClassCell xmi.idref="S.51"/>
+    <GXML:SpecialEdge xmi.idref="S.28"/>
+    <GXML:SpecialEdge xmi.idref="S.192"/>
+    <GXML:SpecialEdge xmi.idref="S.75"/>
+    <GXML:ClassCell xmi.idref="S.86"/>
+    <GXML:ClassCell xmi.idref="S.43"/>
+    <GXML:DefaultGraphCell xmi.idref="S.195"/>
+    <GXML:DefaultGraphCell xmi.idref="S.153"/>
+    <GXML:DefaultGraphCell xmi.idref="S.178"/>
+    <GXML:DefaultGraphCell xmi.idref="S.137"/>
+    <GXML:DefaultGraphCell xmi.idref="S.131"/>
+    <GXML:DefaultGraphCell xmi.idref="S.132"/>
+    <GXML:DefaultGraphCell xmi.idref="S.133"/>
+    <GXML:DefaultGraphCell xmi.idref="S.134"/>
+    <GXML:DefaultGraphCell xmi.idref="S.139"/>
+    <GXML:DefaultGraphCell xmi.idref="S.161"/>
+    <GXML:DefaultGraphCell xmi.idref="S.78"/>
+    <GXML:DefaultGraphCell xmi.idref="S.52"/>
+    <GXML:DefaultGraphCell xmi.idref="S.8"/>
+    <GXML:DefaultGraphCell xmi.idref="S.9"/>
+    <GXML:DefaultGraphCell xmi.idref="S.10"/>
+    <GXML:DefaultGraphCell xmi.idref="S.11"/>
+    <GXML:DefaultGraphCell xmi.idref="S.173"/>
+    <GXML:DefaultGraphCell xmi.idref="S.94"/>
+    <GXML:DefaultGraphCell xmi.idref="S.83"/>
+    <GXML:DefaultGraphCell xmi.idref="S.185"/>
+    <GXML:DefaultGraphCell xmi.idref="S.175"/>
+    <GXML:DefaultGraphCell xmi.idref="S.193"/>
+    <GXML:DefaultGraphCell xmi.idref="S.103"/>
+    <GXML:DefaultGraphCell xmi.idref="S.159"/>
+    <GXML:DefaultGraphCell xmi.idref="S.31"/>
+    <GXML:DefaultGraphCell xmi.idref="S.37"/>
+    <GXML:DefaultGraphCell xmi.idref="S.44"/>
+    <GXML:DefaultGraphCell xmi.idref="S.66"/>
+    <GXML:DefaultGraphCell xmi.idref="S.57"/>
+    <GXML:DefaultGraphCell xmi.idref="S.115"/>
+    <GXML:DefaultGraphCell xmi.idref="S.100"/>
+    <GXML:DefaultGraphCell xmi.idref="S.47"/>
+    <GXML:ClassCell xmi.idref="S.147"/>
+    <GXML:ClassCell xmi.idref="S.36"/>
+    <GXML:DefaultGraphCell xmi.idref="S.155"/>
+    <GXML:DefaultGraphCell xmi.idref="S.71"/>
+    <GXML:DefaultGraphCell xmi.idref="S.2"/>
+    <GXML:DefaultGraphCell xmi.idref="S.92"/>
+    <GXML:DefaultGraphCell xmi.idref="S.197"/>
+    <GXML:DefaultGraphCell xmi.idref="S.117"/>
+    <GXML:DefaultGraphCell xmi.idref="S.39"/>
+    <GXML:DefaultGraphCell xmi.idref="S.29"/>
+    <GXML:DefaultGraphCell xmi.idref="S.61"/>
+    <GXML:DefaultGraphCell xmi.idref="S.59"/>
+    <GXML:DefaultGraphCell xmi.idref="S.24"/>
+    <GXML:DefaultGraphCell xmi.idref="S.76"/>
+    <GXML:DefaultGraphCell xmi.idref="S.110"/>
+    <GXML:DefaultGraphCell xmi.idref="S.143"/>
+    <GXML:DefaultGraphCell xmi.idref="S.141"/>
+    <GXML:DefaultGraphCell xmi.idref="S.145"/>
+   </GXML:ClassDiagram.cells>
+   <GXML:ClassDiagram.classViews>
+    <GXML:ClassCell xmi.idref="S.36"/>
+    <GXML:ClassCell xmi.idref="S.19"/>
+    <GXML:ClassCell xmi.idref="S.167"/>
+    <GXML:ClassCell xmi.idref="S.43"/>
+    <GXML:ClassCell xmi.idref="S.51"/>
+    <GXML:ClassCell xmi.idref="S.147"/>
+    <GXML:ClassCell xmi.idref="S.105"/>
+    <GXML:ClassCell xmi.idref="S.86"/>
+    <GXML:ClassCell xmi.idref="S.65"/>
+   </GXML:ClassDiagram.classViews>
+   <GXML:ClassDiagram.relationViews>
+    <GXML:SpecialEdge xmi.idref="S.6"/>
+    <GXML:SpecialEdge xmi.idref="S.18"/>
+    <GXML:SpecialEdge xmi.idref="S.28"/>
+    <GXML:SpecialEdge xmi.idref="S.192"/>
+    <GXML:SpecialEdge xmi.idref="S.56"/>
+    <GXML:SpecialEdge xmi.idref="S.114"/>
+    <GXML:SpecialEdge xmi.idref="S.189"/>
+    <GXML:SpecialEdge xmi.idref="S.121"/>
+    <GXML:SpecialEdge xmi.idref="S.7"/>
+    <GXML:SpecialEdge xmi.idref="S.184"/>
+    <GXML:SpecialEdge xmi.idref="S.75"/>
+    <GXML:SpecialEdge xmi.idref="S.204"/>
+    <GXML:SpecialEdge xmi.idref="S.70"/>
+    <GXML:SpecialEdge xmi.idref="S.82"/>
+   </GXML:ClassDiagram.relationViews>
+   <GXML:ClassDiagram.connectionSet>
+    <GXML:ConnectionSet edges="S.75 S.7 S.192 S.6 S.70 S.56 S.189 S.28 S.204 S.18 S.82 S.184 S.114 S.121" xmi.id="S.217">
+     <GXML:ConnectionSet.connections>
+      <GXML:ConnectionSet_GXConnection edge="S.184" isSource="true" port="S.13" xmi.id="S.218"/>
+      <GXML:ConnectionSet_GXConnection edge="S.70" isSource="true" port="S.63" xmi.id="S.219"/>
+      <GXML:ConnectionSet_GXConnection edge="S.204" isSource="false" port="S.172" xmi.id="S.220"/>
+      <GXML:ConnectionSet_GXConnection edge="S.82" isSource="true" port="S.63" xmi.id="S.221"/>
+      <GXML:ConnectionSet_GXConnection edge="S.6" isSource="false" port="S.12" xmi.id="S.222"/>
+      <GXML:ConnectionSet_GXConnection edge="S.189" isSource="false" port="S.34" xmi.id="S.223"/>
+      <GXML:ConnectionSet_GXConnection edge="S.189" isSource="true" port="S.13" xmi.id="S.224"/>
+      <GXML:ConnectionSet_GXConnection edge="S.70" isSource="false" port="S.49" xmi.id="S.225"/>
+      <GXML:ConnectionSet_GXConnection edge="S.114" isSource="false" port="S.12" xmi.id="S.226"/>
+      <GXML:ConnectionSet_GXConnection edge="S.121" isSource="false" port="S.12" xmi.id="S.227"/>
+      <GXML:ConnectionSet_GXConnection edge="S.184" isSource="false" port="S.34" xmi.id="S.228"/>
+      <GXML:ConnectionSet_GXConnection edge="S.192" isSource="true" port="S.152" xmi.id="S.229"/>
+      <GXML:ConnectionSet_GXConnection edge="S.18" isSource="true" port="S.41" xmi.id="S.230"/>
+      <GXML:ConnectionSet_GXConnection edge="S.192" isSource="false" port="S.34" xmi.id="S.231"/>
+      <GXML:ConnectionSet_GXConnection edge="S.6" isSource="true" port="S.172" xmi.id="S.232"/>
+      <GXML:ConnectionSet_GXConnection edge="S.75" isSource="false" port="S.152" xmi.id="S.233"/>
+      <GXML:ConnectionSet_GXConnection edge="S.28" isSource="false" port="S.49" xmi.id="S.234"/>
+      <GXML:ConnectionSet_GXConnection edge="S.56" isSource="false" port="S.41" xmi.id="S.235"/>
+      <GXML:ConnectionSet_GXConnection edge="S.7" isSource="false" port="S.12" xmi.id="S.236"/>
+      <GXML:ConnectionSet_GXConnection edge="S.28" isSource="true" port="S.152" xmi.id="S.237"/>
+      <GXML:ConnectionSet_GXConnection edge="S.56" isSource="true" port="S.152" xmi.id="S.238"/>
+      <GXML:ConnectionSet_GXConnection edge="S.204" isSource="true" port="S.63" xmi.id="S.239"/>
+      <GXML:ConnectionSet_GXConnection edge="S.18" isSource="false" port="S.34" xmi.id="S.240"/>
+      <GXML:ConnectionSet_GXConnection edge="S.75" isSource="true" port="S.91" xmi.id="S.241"/>
+      <GXML:ConnectionSet_GXConnection edge="S.114" isSource="true" port="S.13" xmi.id="S.242"/>
+      <GXML:ConnectionSet_GXConnection edge="S.82" isSource="false" port="S.13" xmi.id="S.243"/>
+      <GXML:ConnectionSet_GXConnection edge="S.7" isSource="true" port="S.13" xmi.id="S.244"/>
+      <GXML:ConnectionSet_GXConnection edge="S.121" isSource="true" port="S.13" xmi.id="S.245"/>
+     </GXML:ConnectionSet.connections>
+    </GXML:ConnectionSet>
+   </GXML:ClassDiagram.connectionSet>
+   <GXML:ClassDiagram.viewAttributes>
+    <GXML:Hashtable keys="S.39 S.16 S.10 S.19 S.119 S.193 S.190 S.12 S.184 S.13 S.137 S.105 S.66 S.189 S.132 S.112 S.52 S.24 S.51 S.117 S.43 S.56 S.49 S.202 S.83 S.9 S.139 S.54 S.115 S.59 S.159 S.37 S.26 S.18 S.47 S.75 S.197 S.44 S.4 S.2 S.82 S.63 S.133 S.155 S.11 S.76 S.134 S.65 S.7 S.187 S.121 S.147 S.172 S.34 S.195 S.57 S.29 S.192 S.6 S.141 S.185 S.131 S.28 S.61 S.173 S.80 S.8 S.73 S.161 S.94 S.36 S.103 S.114 S.68 S.41 S.92 S.78 S.145 S.86 S.91 S.143 S.31 S.167 S.70 S.153 S.15 S.71 S.152 S.178 S.100 S.110 S.182 S.175 S.204" xmi.id="S.246">
+     <GXML:Hashtable.values>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=960,y=331,width=25,height=21] false" xmi.id="S.247"/>
+      <GXML:HashtableStrings xmi.id="S.248"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=242,y=410,width=12,height=21] false" xmi.id="S.249"/>
+      <GXML:HashtableStrings keys="bounds opaque" values="java.awt.Rectangle[x=37,y=297,width=195,height=129] true" xmi.id="S.250"/>
+      <GXML:HashtableStrings xmi.id="S.251"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=559,y=65,width=33,height=21] false" xmi.id="S.252"/>
+      <GXML:HashtableStrings xmi.id="S.253"/>
+      <GXML:HashtableStrings xmi.id="S.254"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 4 0 false [java.awt.Point[x=476,y=359],_java.awt.Point[x=706,y=399],_java.awt.Point[x=829,y=362]] 1.0" xmi.id="S.255"/>
+      <GXML:HashtableStrings xmi.id="S.256"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=80,y=266,width=44,height=21] false" xmi.id="S.257"/>
+      <GXML:HashtableStrings keys="bounds opaque" values="java.awt.Rectangle[x=390,y=309,width=170,height=98] true" xmi.id="S.258"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=415,y=278,width=45,height=21] false" xmi.id="S.259"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 4 0 false [java.awt.Point[x=476,y=359],_java.awt.Point[x=706,y=340],_java.awt.Point[x=829,y=362]] 1.0" xmi.id="S.260"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=312,y=281,width=68,height=21] false" xmi.id="S.261"/>
+      <GXML:HashtableStrings xmi.id="S.262"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=251,y=325,width=44,height=21] false" xmi.id="S.263"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=960,y=391,width=25,height=21] false" xmi.id="S.264"/>
+      <GXML:HashtableStrings keys="bounds opaque" values="java.awt.Rectangle[x=708,y=47,width=156,height=98] true" xmi.id="S.265"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=969,y=152,width=52,height=21] false" xmi.id="S.266"/>
+      <GXML:HashtableStrings keys="bounds opaque" values="java.awt.Rectangle[x=1103,y=305,width=197,height=110] true" xmi.id="S.267"/>
+      <GXML:HashtableStrings keys="lineBegin beginSize endsize labelposition points linewidth editable" values="2 18 18 java.awt.Point[x=500,y=500] [java.awt.Point[x=1154,y=97],_java.awt.Point[x=1255,y=242],_java.awt.Point[x=1202,y=361]] 1.0 false" xmi.id="S.268"/>
+      <GXML:HashtableStrings xmi.id="S.269"/>
+      <GXML:HashtableStrings xmi.id="S.270"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=242,y=105,width=12,height=21] false" xmi.id="S.271"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=317,y=369,width=45,height=21] false" xmi.id="S.272"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=368,y=366,width=12,height=21] false" xmi.id="S.273"/>
+      <GXML:HashtableStrings xmi.id="S.274"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=942,y=65,width=52,height=21] false" xmi.id="S.275"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=1030,y=350,width=63,height=21] false" xmi.id="S.276"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=656,y=65,width=42,height=21] false" xmi.id="S.277"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=427,y=154,width=33,height=21] false" xmi.id="S.278"/>
+      <GXML:HashtableStrings xmi.id="S.279"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 0 4 false [java.awt.Point[x=1202,y=361],_java.awt.Point[x=1101,y=381],_java.awt.Point[x=829,y=362]] 1.0" xmi.id="S.280"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=874,y=65,width=42,height=21] false" xmi.id="S.281"/>
+      <GXML:HashtableStrings keys="lineEnd beginSize endsize labelposition points linewidth editable" values="2 18 18 java.awt.Point[x=500,y=500] [java.awt.Point[x=1133,y=266],_java.awt.Point[x=1144,y=197],_java.awt.Point[x=1154,y=97]] 1.0 false" xmi.id="S.282"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=1041,y=152,width=23,height=21] false" xmi.id="S.283"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=480,y=278,width=12,height=21] false" xmi.id="S.284"/>
+      <GXML:HashtableStrings xmi.id="S.285"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=685,y=350,width=12,height=21] false" xmi.id="S.286"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 0 0 false [java.awt.Point[x=471,y=97],_java.awt.Point[x=470,y=233],_java.awt.Point[x=476,y=359]] 1.0" xmi.id="S.287"/>
+      <GXML:HashtableStrings xmi.id="S.288"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=242,y=322,width=12,height=21] false" xmi.id="S.289"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=570,y=350,width=12,height=21] false" xmi.id="S.290"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=256,y=369,width=44,height=21] false" xmi.id="S.291"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=960,y=350,width=40,height=21] false" xmi.id="S.292"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=248,y=281,width=44,height=21] false" xmi.id="S.293"/>
+      <GXML:HashtableStrings keys="bounds opaque" values="java.awt.Rectangle[x=392,y=48,width=157,height=96] true" xmi.id="S.294"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 4 0 false [java.awt.Point[x=476,y=359],_java.awt.Point[x=373,y=400],_java.awt.Point[x=135,y=362]] 1.0" xmi.id="S.295"/>
+      <GXML:HashtableStrings xmi.id="S.296"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 0 4 false [java.awt.Point[x=476,y=359],_java.awt.Point[x=351,y=356],_java.awt.Point[x=135,y=362]] 1.0" xmi.id="S.297"/>
+      <GXML:HashtableStrings keys="bounds opaque" values="java.awt.Rectangle[x=1004,y=51,width=299,height=91] true" xmi.id="S.298"/>
+      <GXML:HashtableStrings xmi.id="S.299"/>
+      <GXML:HashtableStrings xmi.id="S.300"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=144,y=154,width=12,height=21] false" xmi.id="S.301"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=982,y=106,width=12,height=21] false" xmi.id="S.302"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=960,y=290,width=40,height=21] false" xmi.id="S.303"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 0 4 false [java.awt.Point[x=1154,y=97],_java.awt.Point[x=1031,y=321],_java.awt.Point[x=829,y=362]] 1.0" xmi.id="S.304"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 0 4 false [java.awt.Point[x=135,y=96],_java.awt.Point[x=135,y=362]] 1.0" xmi.id="S.305"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=685,y=409,width=12,height=21] false" xmi.id="S.306"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=242,y=64,width=48,height=21] false" xmi.id="S.307"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=368,y=322,width=12,height=21] false" xmi.id="S.308"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 0 4 false [java.awt.Point[x=1154,y=97],_java.awt.Point[x=787,y=97]] 1.0" xmi.id="S.309"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=1070,y=391,width=23,height=21] false" xmi.id="S.310"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=359,y=106,width=23,height=21] false" xmi.id="S.311"/>
+      <GXML:HashtableStrings xmi.id="S.312"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=368,y=410,width=12,height=21] false" xmi.id="S.313"/>
+      <GXML:HashtableStrings xmi.id="S.314"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=309,y=325,width=64,height=21] false" xmi.id="S.315"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=349,y=65,width=33,height=21] false" xmi.id="S.316"/>
+      <GXML:HashtableStrings keys="bounds opaque" values="java.awt.Rectangle[x=707,y=313,width=243,height=97] true" xmi.id="S.317"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=675,y=106,width=23,height=21] false" xmi.id="S.318"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 0 4 false [java.awt.Point[x=476,y=359],_java.awt.Point[x=382,y=312],_java.awt.Point[x=135,y=362]] 1.0" xmi.id="S.319"/>
+      <GXML:HashtableStrings xmi.id="S.320"/>
+      <GXML:HashtableStrings xmi.id="S.321"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=615,y=309,width=82,height=21] false" xmi.id="S.322"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=242,y=366,width=12,height=21] false" xmi.id="S.323"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=657,y=368,width=40,height=21] false" xmi.id="S.324"/>
+      <GXML:HashtableStrings keys="bounds opaque" values="java.awt.Rectangle[x=1073,y=240,width=118,height=51] true" xmi.id="S.325"/>
+      <GXML:HashtableStrings xmi.id="S.326"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=570,y=368,width=45,height=21] false" xmi.id="S.327"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=480,y=154,width=23,height=21] false" xmi.id="S.328"/>
+      <GXML:HashtableStrings keys="bounds opaque" values="java.awt.Rectangle[x=36,y=46,width=196,height=98] true" xmi.id="S.329"/>
+      <GXML:HashtableStrings keys="lineBegin linewidth endsize editable lineEnd beginFill points labelposition beginSize" values="9 1.0 18 false 0 true [java.awt.Point[x=471,y=97],_java.awt.Point[x=787,y=97]] java.awt.Point[x=500,y=500] 18" xmi.id="S.330"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=76,y=154,width=48,height=21] false" xmi.id="S.331"/>
+      <GXML:HashtableStrings xmi.id="S.332"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=570,y=309,width=45,height=21] false" xmi.id="S.333"/>
+      <GXML:HashtableStrings xmi.id="S.334"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=144,y=266,width=12,height=21] false" xmi.id="S.335"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=874,y=106,width=12,height=21] false" xmi.id="S.336"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=570,y=409,width=12,height=21] false" xmi.id="S.337"/>
+      <GXML:HashtableStrings xmi.id="S.338"/>
+      <GXML:HashtableStrings keys="editable bordercolor bounds opaque" values="true java.awt.Color[r=255,g=255,b=255] java.awt.Rectangle[x=559,y=106,width=12,height=21] false" xmi.id="S.339"/>
+      <GXML:HashtableStrings keys="labelposition endsize beginSize lineEnd lineBegin editable points linewidth" values="java.awt.Point[x=500,y=500] 18 18 0 4 false [java.awt.Point[x=471,y=97],_java.awt.Point[x=135,y=96]] 1.0" xmi.id="S.340"/>
+     </GXML:Hashtable.values>
+    </GXML:Hashtable>
+   </GXML:ClassDiagram.viewAttributes>
+   <GXML:ClassDiagram.globalFilter>
+    <GXML:ClassFilter xmi.id="S.341">
+     <GXML:ClassFilter.map>
+      <GXML:HashtableStrings keys="a_pro m_pro m_pub a_pac a_pri stereotype a_pub msignature m_pri m_pac" values="true true true true true true true true true true" xmi.id="S.342"/>
+     </GXML:ClassFilter.map>
+    </GXML:ClassFilter>
+   </GXML:ClassDiagram.globalFilter>
+   <GXML:ClassDiagram.classes>
+    <UML:Class href="../DialogueGameDE.xml|S.192" xml:link="simple" xmlns:UML="http://lci/xml"/>
+    <UML:Class href="../DialogueGameDE.xml|S.102" xml:link="simple" xmlns:UML="http://lci/xml"/>
+    <UML:Class href="../DialogueGameDE.xml|S.116" xml:link="simple" xmlns:UML="http://lci/xml"/>
+    <UML:Class href="../DialogueGameDE.xml|S.176" xml:link="simple" xmlns:UML="http://lci/xml"/>
+    <UML:Class href="../DialogueGameDE.xml|S.119" xml:link="simple" xmlns:UML="http://lci/xml"/>
+    <UML:Class href="../DialogueGameDE.xml|S.160" xml:link="simple" xmlns:UML="http://lci/xml"/>
+    <UML:Class href="../DialogueGameDE.xml|S.189" xml:link="simple" xmlns:UML="http://lci/xml"/>
+    <UML:Class href="../DialogueGameDE.xml|S.109" xml:link="simple" xmlns:UML="http://lci/xml"/>
+    <UML:Class href="../DialogueGameDE.xml|S.133" xml:link="simple" xmlns:UML="http://lci/xml"/>
+   </GXML:ClassDiagram.classes>
+  </GXML:ClassDiagram>
+ </XMI.content>
+</XMI>
